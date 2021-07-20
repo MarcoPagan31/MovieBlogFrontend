@@ -35,7 +35,7 @@ const Blogs = () => {
                 comment: location.state.comment
             }),
         };
-        fetch("api/v1/blog/blogbytitle", requestOptions)
+        fetch("https://movieblogaws-env.eba-j2bkvnzm.us-east-2.elasticbeanstalk.com/api/v1/blog/blogbytitle", requestOptions)
             .then((response) => response.json())
             .then((data) => {
                 dispatch(setBlogData(data));

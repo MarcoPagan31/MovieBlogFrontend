@@ -26,7 +26,7 @@ const Moviehome = () => {
 
     // Fetch movie data
     useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/search/movie?api_key=${api_key}&language=en-US&query=${searchInput}&page=1&include_adult=false`)
+        fetch(`http://api.themoviedb.org/3/search/movie?api_key=${api_key}&language=en-US&query=${searchInput}&page=1&include_adult=false`)
             .then((response) => response.json())
             .then((data) => {
                 setMovies(data);
