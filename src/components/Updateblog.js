@@ -31,7 +31,7 @@ const UpdateBlog = () => {
             }),
             
         };
-        fetch("api/v1/blog/updateblog", requestOptions)
+        fetch("http://movieblogaws-env.eba-j2bkvnzm.us-east-2.elasticbeanstalk.com/api/v1/blog/updateblog", requestOptions)
             .then((response) => response.json())
             .then((data) => {
               
@@ -51,7 +51,7 @@ const UpdateBlog = () => {
             }),
             
         };
-        fetch("api/v1/blog/deleteblog", requestOptions)
+        fetch("http://movieblogaws-env.eba-j2bkvnzm.us-east-2.elasticbeanstalk.com/api/v1/blog/deleteblog", requestOptions)
             .then((response) => response.json())
             .then((data) => {
               

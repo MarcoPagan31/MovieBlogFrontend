@@ -23,7 +23,7 @@ const CreateBlog = () => {
     
     const CreateBlog = () => async dispatch => {
         if (formData.entries().next().value[1] !== null) {
-            const response = await axios.post("api/v1/blog/createblog", formData, {
+            const response = await axios.post("http://movieblogaws-env.eba-j2bkvnzm.us-east-2.elasticbeanstalk.com/api/v1/blog/createblog", formData, {
                 onUploadProgress:progressEvent => {
                     console.log("Uploading : " + ((progressEvent.loaded / progressEvent.total) * 100).toString() + "%")
                 }

@@ -22,7 +22,7 @@ const Blogs = () => {
     const isSignedIn = useSelector(selectSignedIn)
 
     useEffect(() => {
-        fetch("api/v1/blog/getblogs")
+        fetch("http://movieblogaws-env.eba-j2bkvnzm.us-east-2.elasticbeanstalk.com/api/v1/blog/getblogs")
             .then((response) => response.json())
             .then((data) => {
                 dispatch(setBlogData(data));
