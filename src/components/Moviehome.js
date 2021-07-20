@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import "../styling/home.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSignedIn, selectUserInput, setSignedIn, setUserData } from "../features/UserSlice";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router";
 import { Link } from 'react-router-dom';
