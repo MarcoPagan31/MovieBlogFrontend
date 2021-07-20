@@ -1,11 +1,11 @@
 import RegisterProfile from "./registerprofile";
-import CreateBlog from "./components/createblog";
-import Homepage from "./components/homepage";
-import Blogdetails from "./components/blogdetails";
-import UpdateBlog from "./components/updateblog";
-import Moviehome from "./components/moviehome";
-import Watchlist from "./components/watchlist";
-import Watched from "./components/watched";
+import CreateBlog from "./components/Createblog";
+import Homepage from "./components/Homepage";
+import Blogdetails from "./components/Blogdetails";
+import UpdateBlog from "./components/Updateblog";
+import Moviehome from "./components/Moviehome";
+import Watchlist from "./components/Watchlist";
+import Watched from "./components/Watched";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './styling/app.css';
 import {GlobalProvider} from "./context/GlobalState";
