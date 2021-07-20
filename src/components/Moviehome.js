@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import "../styling/blogs.css";
 import "../styling/moviehome.css";
 import { GlobalContext } from '../context/GlobalState';
-import Movie from './movie';
+import Movie from './Movie';
 
 const Moviehome = () => {
 

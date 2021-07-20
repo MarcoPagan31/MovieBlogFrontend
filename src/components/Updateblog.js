@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { Grid, TextField, Button, Typography } from "@material-ui/core";
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import { sizing } from '@material-ui/system';

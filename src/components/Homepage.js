@@ -4,7 +4,7 @@ import "../styling/home.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSignedIn, setSignedIn, setUserData } from "../features/UserSlice";
 import Navbar from "./Navbar";
-import Blogs from "./blogs";
+import Blogs from "./Blogs";
 
 const Homepage = () => {
     const dispatch = useDispatch();
