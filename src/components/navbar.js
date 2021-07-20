@@ -8,7 +8,7 @@ import {
   setInput,
   setSignedIn,
   setUserData,
-} from "../features/userSlice";
+} from "../features/UserSlice";
 import "../styling/navbar.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 

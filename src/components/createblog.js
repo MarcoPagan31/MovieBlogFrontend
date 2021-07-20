@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Grid, TextField, Button, Typography } from "@material-ui/core";
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import Navbar from "../components/navbar";
+import Navbar from "./Navbar";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";

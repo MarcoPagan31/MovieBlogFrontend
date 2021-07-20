@@ -2,9 +2,9 @@ import GoogleLogin from 'react-google-login';
 import React from 'react';
 import "../styling/home.css";
 import { useDispatch, useSelector } from "react-redux";
-import { selectSignedIn, setSignedIn, setUserData } from "../features/userSlice";
-import Navbar from "../components/navbar";
-import Blogs from "../components/blogs";
+import { selectSignedIn, setSignedIn, setUserData } from "../features/UserSlice";
+import Navbar from "./Navbar";
+import Blogs from "./blogs";
 
 const Homepage = () => {
     const dispatch = useDispatch();

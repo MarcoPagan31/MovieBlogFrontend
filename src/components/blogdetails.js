@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { setBlogData } from '../features/userSlice';
+import { setBlogData } from '../features/UserSlice';
 import {
     selectSignedIn,
     selectUserData,
@@ -7,11 +7,11 @@ import {
     setSignedIn,
     setUserData,
     selectUserInput
-  } from "../features/userSlice";
+  } from "../features/UserSlice";
 import { useDispatch, useSelector } from "react-redux";
 import "../styling/blogs.css";
 import { useLocation } from "react-router";
-import Navbar from "../components/navbar";
+import Navbar from "./Navbar";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ReactHTMLParser from "react-html-parser";
 

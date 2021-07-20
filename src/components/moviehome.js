@@ -2,15 +2,15 @@ import GoogleLogin from 'react-google-login';
 import React, { useContext } from 'react';
 import "../styling/home.css";
 import { useDispatch, useSelector } from "react-redux";
-import { selectSignedIn, selectUserInput, setSignedIn, setUserData } from "../features/userSlice";
-import Navbar from "../components/navbar";
+import { selectSignedIn, selectUserInput, setSignedIn, setUserData } from "../features/UserSlice";
+import Navbar from "./navbar";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router";
 import { Link } from 'react-router-dom';
 import "../styling/blogs.css";
 import "../styling/moviehome.css";
 import { GlobalContext } from '../context/GlobalState';
-import Movie from '../components/movie';
+import Movie from './movie';
 
 const Moviehome = () => {
 
